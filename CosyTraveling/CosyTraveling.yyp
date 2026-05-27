@@ -35,8 +35,12 @@
   },
   "resources": [
     {"id":{"name":"objRock","path":"objects/objRock/objRock.yy",},},
+    {"id":{"name":"objRockLucky","path":"objects/objRockLucky/objRockLucky.yy",},},
     {"id":{"name":"sndMusic","path":"sounds/sndMusic/sndMusic.yy",},},
+    {"id":{"name":"sprRockGolden","path":"sprites/sprRockGolden/sprRockGolden.yy",},},
+    {"id":{"name":"sprRockLucky","path":"sprites/sprRockLucky/sprRockLucky.yy",},},
     {"id":{"name":"sprRockSmall","path":"sprites/sprRockSmall/sprRockSmall.yy",},},
+    {"id":{"name":"objRockGolden","path":"objects/objRockGolden/objRockGolden.yy",},},
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},},

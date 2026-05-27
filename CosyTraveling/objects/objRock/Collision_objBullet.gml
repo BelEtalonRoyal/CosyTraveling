@@ -1,6 +1,6 @@
 audio_play_sound(sndRockdestroy, 0, false, 1, 0, random_range(0.6, 1.1));
 
-objCore.points += 50;
+objCore.points += rockScore * objCore.scoreFactor;
 
 instance_destroy(other);
 effect_create_above(ef_explosion, x, y, 1, c_white);
@@ -12,9 +12,9 @@ if (sprite_index == sprRockBig) {
 	instance_copy(true); 
 }
 	
-else if instance_number(objRock) < 12 {
+else if instance_number(objRock) < maxRockInScreen {
 	sprite_index = sprRockBig;
-	x =- 100;
+	x -= 100;
 }
 	
 else {

@@ -18,8 +18,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"objRock","order":3,"path":"objects/objRock/objRock.yy",},
+    {"name":"objRockLucky","order":4,"path":"objects/objRockLucky/objRockLucky.yy",},
     {"name":"sndMusic","order":1,"path":"sounds/sndMusic/sndMusic.yy",},
+    {"name":"sprRockGolden","order":5,"path":"sprites/sprRockGolden/sprRockGolden.yy",},
+    {"name":"sprRockLucky","order":4,"path":"sprites/sprRockLucky/sprRockLucky.yy",},
     {"name":"sprRockSmall","order":3,"path":"sprites/sprRockSmall/sprRockSmall.yy",},
+    {"name":"objRockGolden","order":5,"path":"objects/objRockGolden/objRockGolden.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"objBullet","order":2,"path":"objects/objBullet/objBullet.yy",},
     {"name":"sprRockBig","order":2,"path":"sprites/sprRockBig/sprRockBig.yy",},
