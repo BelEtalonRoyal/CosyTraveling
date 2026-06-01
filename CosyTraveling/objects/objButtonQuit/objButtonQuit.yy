@@ -1,21 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objRockLucky",
+  "name": "objButtonQuit",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objRock","path":"objects/objRock/objRock.yy",},"propertyId":{"name":"resetTimer","path":"objects/objRock/objRock.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objButtonParent","path":"objects/objButtonParent/objButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/objButtonParent/objButtonParent.yy",},"value":"Quit",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "objRock",
-    "path": "objects/objRock/objRock.yy",
+    "name": "objButtonParent",
+    "path": "objects/objButtonParent/objButtonParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprRockLucky",
-    "path": "sprites/sprRockLucky/sprRockLucky.yy",
+    "name": "sprButton",
+    "path": "sprites/sprButton/sprButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,
